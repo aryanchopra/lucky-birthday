@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("https://images.pexels.com/photos/1590915/pexels-photo-1590915.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  width: 100%;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.App .centercontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+}
+
+.App .fullpagediv {
+  height: 100vh;
+}
+
+.App .fullpagediv h1 {
+  font-family: "Cabin Sketch";
+  font-size: 48px;
+  font-weight: 900;
+  color: #97f8ff;
+  text-shadow: 5px 5px 3px #00a2ff;
+}
+
+.App .fullpagediv button {
+  padding: 15px 40px;
+  font-size: 1.5rem;
+  border: 1px solid lightskyblue;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: rgba(112, 170, 206, 0.6);
+}
+
+.App .fullpagediv button a {
+  color: white;
+  text-decoration: none;
+}
+
+.App .fullpagediv button:hover {
+  background-color: rgba(112, 170, 206, 0.9);
+}
+
+.App .fullpagediv .centercontainer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+}
+
+.App .fullpagediv .centercontainer2 .privacynotice {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.App .fullpagediv .centercontainer2 .privacynotice .noticeinner {
+  border: 3px solid cyan;
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.App .fullpagediv .centercontainer2 .privacynotice .noticeinner .close {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.App .fullpagediv .centercontainer2 .privacynotice span {
+  font-size: 26px;
+  color: turquoise;
+}
+
+.App .fullpagediv .centercontainer2 .formcontainer {
+  position: relative;
+  height: 100%;
+  width: 30%;
+}
+
+.App .fullpagediv .centercontainer2 .formcontainer .formcontainerinner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.App .fullpagediv .centercontainer2 .formcontainer .formcontainerinner label {
+  color: cyan;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.App .fullpagediv .centercontainer2 .formcontainer .formcontainerinner input {
+  height: 35px;
+  margin-bottom: 20px;
+}
+
+.App .fullpagediv .centercontainer2 .formcontainer .output {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.App .fullpagediv .centercontainer2 .formcontainer .output p {
+  font-family: "Cabin Sketch";
+  font-size: 24px;
+  font-weight: 900;
+  color: #97f8ff;
+  text-shadow: 5px 5px 3px #00a2ff;
+}
+
+.App .fullpagediv .centercontainer2 .formcontainer .footer {
+  background-color: rgba(123, 191, 255, 0.678);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: white;
+}
+
+.App .fullpagediv .centercontainer2 .formcontainer .footer span {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.App .fullpagediv .centercontainer2 .formcontainer .footer span a,
+.App .fullpagediv .centercontainer2 .formcontainer .footer span a:hover,
+.App .fullpagediv .centercontainer2 .formcontainer .footer span a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .App .formcontainer {
+    width: 90% !important;
+  }
+}
+/*# sourceMappingURL=App.css.map */
