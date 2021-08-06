@@ -1,2 +1,2 @@
 # lucky-birthday
-Created with CodeSandbox
+A web app which tells the user if his/her birthday is lucky
